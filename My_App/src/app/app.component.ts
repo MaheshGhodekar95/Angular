@@ -11,4 +11,25 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'Mahesh';
+  
+  GetName(name:string,SirName:string)
+  {
+    alert(name+' '+SirName);
+  }
+  GetData(Value:string)
+  {
+    console.warn(Value);
+  }
+  GetDown(Value:string)
+  {
+   console.warn(Value);
+  }
+  GetMouseOver()
+  {
+   console.warn('Mouse is overed Mahesh');
+  }
+  GetMouseLeave()
+  {
+   console.warn('Mouse is Leave Mahesh');
+  }
 }
